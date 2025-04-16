@@ -29,18 +29,16 @@ class Ollama {
         return $this->callOllamaAPI('tags',[], 'GET');
     }
 
-    public function getCatchPhrase(string $description,int $chars,int $number_phrases,string $prompt='Create me {{number_phrases}} catch phrases maximum {{chars}} characters each for a product with this description: '): array {
-        echo PHP_EOL.$description.PHP_EOL;
-        $prompt = str_replace('{{chars}}', $chars, $prompt);
-        $prompt = str_replace('{{number_phrases}}', $number_phrases, $prompt);
-        $prompt = $prompt.' "'.$description.'" give me only the phrases, no other text and in json format, and without marks, neither markdown annotations, neither ```json, just the json array with the phrases';
-        echo PHP_EOL;
-        $params = [
-            'prompt' => $prompt,
-            'stream' => false
-        ];
-        return $this->callOllamaAPI('generate',$params);
+    /**
+     * Generates text based on the given template and parameters.
+     */
+    public function getRaw($template,$parameters): array {
+        foreach ($parameters as $key => $value) {
+            $template = str_replace('{{'.$key.'}}', $value, $template);
+        }
+        return $this->callOllamaAPI('generate', ['prompt' => $template,'stream' => false]);
     }
+
     /**
      * Generates text based on the given prompt.
      */ 
@@ -98,7 +96,8 @@ class Ollama {
             $data = json_decode($response->getBody(), true);
             return $data;
         } catch (RequestException $e) {
-            return 'API Request failed: ' . $e->getMessage();
+            echo 'API Request failed: ' . $e->getMessage();
+            exit();
         }
         
     }

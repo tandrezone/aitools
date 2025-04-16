@@ -1,0 +1,7 @@
+Create me {{number_phrases}}
+ catch phrases maximum {{chars}} characters 
+ each for a product with this description:'{{prompt}}' 
+ give me only the phrases, no other text and in json format, 
+ and without marks, neither markdown annotations, 
+ neither ```json, 
+ just the json array with the phrases 
