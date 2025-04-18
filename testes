@@ -1,0 +1,1498 @@
+List of models available:
+hermes3:3b
+tinyllama:latest
+phi3:latest
+gemma:2b
+qwen2.5:1.5b
+qwen2.5:0.5b
+llama3.2:1b
+qwen2.5:latest
+llama3.2:latest
+mistral:latest
+gemma3:1b
+gemma3:latest
+deepseek-r1:latest
+
+Array
+(
+    [name] => hermes3:3b
+    [model] => hermes3:3b
+    [modified_at] => 2025-04-17T11:48:51.000871063+01:00
+    [size] => 2019384442
+    [digest] => a8851c5041d400c8eece484771e0a9f438e6500de9f22150ef2863bf7209fbd9
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => llama
+            [families] => Array
+                (
+                    [0] => llama
+                )
+
+            [parameter_size] => 3.2B
+            [quantization_level] => Q4_K_M
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+["Enjoy your BPA-free, durable Spring water bottle for work and play!", "Eco-friendly design, perfect for your favorite logo! 600 ml capacity."]
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+["Stay hydrated on the go with this durable 400ml aluminum water bottle.", "Clip our BPA-free Oregon bottle to your bag for safe travels."]
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+["Defend your vision with class and style!", "Guard your eyes from UV threats (400+)."]
+["Elegant designs meet advanced protection.", "Cupronickel & polycarbonate perfection."]
+["UV400 safeguards, wherever you roam.", "Premium gift box included for home."]
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+[ "Easily navigate trails with our grip-friendly walking sticks!", "Comfortable support and adaptability for every stride." ]
+[ "Seamless strides wherever your path may lead.", "Ergonomic design for extended trekking pleasure." ]
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+["Customize your game with our Slazenger football!", "Enroll any logo in its spacious imprint space."]
+[End]
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+["Style-savvy sunglasses for sunny days.", "UV protection up to category 3, securely sealed."]
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+[ "Eco-friendly getaway: Carry our waterproof, compact 145x130 cm picnic blanket!", "Uncomplicated journey for your snacks: Grab our versatile carry-handle blanket." ]
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+["Snugly wrap yourself in our 150x120 cm polar fleece hug.", "Stow compactly our 200g/m² soft plaid blanket."]
+
+time running: 52sec
+----------------------------------------
+
+Array
+(
+    [name] => tinyllama:latest
+    [model] => tinyllama:latest
+    [modified_at] => 2025-04-17T11:41:57.060226235+01:00
+    [size] => 637700138
+    [digest] => 2644915ede352ea7bdfaff0bfac0be74c719d5d5202acb63a6fb095b52f394a4
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => llama
+            [families] => Array
+                (
+                    [0] => llama
+                )
+
+            [parameter_size] => 1B
+            [quantization_level] => Q4_0
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+[
+    {
+        "phrase": "A perfect springwater bottle for anyone who wants to make their brand stand out!",
+        "sentences": [
+            {"text": "The Spring water bottle is made of Eastman TriTan™, a BPA-free, lightweight and durable material that ensures easy opening and closing. The stainless steel twist-on lid keeps liquids contained for hassle-free drinking."},
+            {"text": "The Spring water bottle offers enough space to add your desired logo or message, making it a great marketing tool. Its ergonomic design makes it easy to hold and gives you ample room for your promotional materials."}
+        ]
+    }
+]
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+[
+{
+    "title": "Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle",
+    "description": "The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiper (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalate content under REACH."
+},
+{
+    "title": "Bringing you a lightweight yet durable 400 ml aluminium water bottle with an ergonomic design",
+    "description": "This water bottle is suitable for all outdoor activities and can handle extreme temperatures. It comes with a strap that can be attached to bags or backpacks for easy carrying."
+},
+{
+    "title": "Keep your brand message in front of your target audience with this unique 400 ml aluminium water bottle",
+    "description": "This product is designed to keep you hydrated even when you're on a tough day hike, and can be used for a variety of outdoor activities."
+},
+{
+    "title": "No more worrying about lost carabiners or losing your bottle with this durable 400 ml aluminium water bottle",
+    "description": "This bottle is made from high-quality materials and comes with a convenient twist-on lid that makes it easy to fill and clean."
+}
+]
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+[
+    {
+        "setence": "Our exclusive design sunglasses category 3 LenSets with UV400 protection, include hardcase box and cleaning cloth. Packed in a SlazeNgler giftbox.",
+        "text": "",
+        "json": {}
+    },
+    {
+        "setence": "Featuring Cupronickel frame and Polycarbonate lenses, LenSets ensures superior protection for your eyes from UV rays. ",
+        "text": "",
+        "json": {}
+    }
+]
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+[
+    {
+        "text": "The NoDic telescopic walking stick with easy grip, comfortable wrist straps and changeable tips. Pounch included.",
+        "keywords": ["product description", "descriptions"],
+        "setence1": "Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+    },
+    {
+        "text": "NoDic telescopic walking stick with easy grip, comfortable wrist straps and changeable tips. Pounch included.",
+        "keywords": ["product description", "descriptions"],
+        "setence2": "The Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips."
+    }
+]
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+[
+    {
+        "setence": "Original Slazenger football with enough imprt space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+    },
+    {
+        "setence": "Exclusive design"
+    }
+]
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+[
+    {
+        "text": "Cool-looking sunglasses with category 3 lense s and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400.",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+            "rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+			"rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+			"rate": 1.5,
+			"volumes": [0.8, 1]
+        }
+    },
+    {
+        "text": "",
+        "entities": [],
+        "speechSynthesis": {
+            "pitchRange": [0.75, 1.25],
+			"rate": 1.5,
+            "volumes": [0.8, 1]
+        }
+}
+```
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+[
+  {
+    "setence": "A helpful AI assistant for your perfect day at the beach or picnic.",
+    "caption": ""
+  },
+  {
+    "setence": "Easy to carry handle with water-resistant backing, keeping you comfortable and dry even on the hottest days.",
+    "caption": ""
+  }
+]
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+[
+{
+    "phrase": {
+        "text": "Having someone send you a needed huuugr is easy with the Huugh Plaid Blanket of 150x120 cm.",
+        "setence": [
+            {"text": "A single colour plaid blanket made of 100% polar fleece with a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space.", "position": 1},
+            {"text": "You can find this product in our Huugh collection, which includes a variety of plaid designs to suit any style or occasion."}
+        ]
+    }
+}
+]
+
+time running: 193sec
+----------------------------------------
+
+Array
+(
+    [name] => phi3:latest
+    [model] => phi3:latest
+    [modified_at] => 2025-04-17T11:39:59.170040777+01:00
+    [size] => 2176178913
+    [digest] => 4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => phi3
+            [families] => Array
+                (
+                    [0] => phi3
+                )
+
+            [parameter_size] => 3.8B
+            [quantization_level] => Q4_0
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+```json
+[
+  "Experience BPA-free durability – hold Spring water safely.",
+  "Customize your hydration journey; add messages to our secure bottle."
+]
+```
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+```json
+[
+  "Stay hydrated anytime with our alum. bottle.",
+  "Oregon Bottle: LFGB & REACH approved."
+]
+```
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+```json
+[
+  "Ultimate eyewear: UV400 cupronickel frames. Luxurious Slazenger gift box.",
+  "Shield your eyes safely; sunglasses with triple lenses, hardcase protection."
+]
+```
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+```json
+[
+    "Walk easier with Nordic sticks – comfy grip & adjustable tips!",
+    "Nordic stick pouches: Comfort on the go."
+]
+```
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+```json
+[
+  "Sleek Slazenger for unique logos.",
+  "Polybag packed football perfect size."
+]
+```
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+```json
+[
+  "Chic lenses + pouch for style & safety",
+  "EN ISO compliant sunglasses UV protected"
+]
+```
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+```json
+[
+  "Breathe easy on your next picnic! Portable water-resistant blanket.",
+  "Sunshine without the worry of spills. Carry and relax in our durable blanket."
+]
+```
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+```json
+[
+  "Huggy plaid: Cozy warmth on-the-go. Packs up to a pouch!",
+  "Cozier hugs sent via blanket's polar fleece."
+]
+```
+
+time running: 116sec
+----------------------------------------
+
+Array
+(
+    [name] => gemma:2b
+    [model] => gemma:2b
+    [modified_at] => 2025-04-17T11:37:29.51981419+01:00
+    [size] => 1678456656
+    [digest] => b50d6c999e592ae4f79acae23b4feaefbdfceaa7cd366df2610e3072c052a160
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => gemma
+            [families] => Array
+                (
+                    [0] => gemma
+                )
+
+            [parameter_size] => 3B
+            [quantization_level] => Q4_0
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+{"setence1":"The Spring water bottle is the ultimate lifestyle accessory.",
+"setence2":"Make a statement with the Spring water bottle. It's perfect for your gym, office, or everyday use."}
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+```json
+{
+  "setence1": "Stay hydrated, wherever life takes you.",
+  "setence2": "Your portable oasis for all your adventures."
+}
+```
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+{
+  "setence1": "Shine bright, protect eyes",
+  "setence2": "Cupronickel. See the world differently"
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+```json
+{
+  "setence1": "Nordic steps into comfort",
+  "setence2": "Easy grip, comfy straps, versatile tips"
+}
+```
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+{
+  "setence1": "Slap on some creativity with this imprint-rich football!",
+  "setence2": "Design your team onto the pitch with this 3-layer Slazenger!"
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+{"setence1":"Look cool, feel cool. Category 3 protection. Go ahead, explore the world with confidence.",
+ "setence2":"Keep your eyes protected. EN ISO 12312-1 compliant. UV 400 certified. Soft pouch for easy transport."}
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+{"setence1":"Stay dry and comfortable on your next picnic with our waterproof picnic blanket.",
+"setence2":"Easy to carry and set up, perfect for any outdoor adventure."}
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+{"setence1":"Hug your loved ones with the Huggy blanket, it's warm and cozy!",
+"setence2":"Keep your body warm and comfortable with the Huggy blanket, perfect for a snuggle and a good night's sleep!"}
+
+time running: 62sec
+----------------------------------------
+
+Array
+(
+    [name] => qwen2.5:1.5b
+    [model] => qwen2.5:1.5b
+    [modified_at] => 2025-04-17T11:32:12.079266449+01:00
+    [size] => 986061892
+    [digest] => 65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => qwen2
+            [families] => Array
+                (
+                    [0] => qwen2
+                )
+
+            [parameter_size] => 1.5B
+            [quantization_level] => Q4_K_M
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+```json
+["Get refreshing spring water on the go with this BPA-free Eastman Tritan™ bottle. Easily add your brand's logo or message inside for unique touches."]
+["Sip with style and convenience thanks to its sleek stainless steel lid and easy-to-open twist mechanism, making it perfect for everyday drinking."]
+```
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+```json
+[
+    "Stay hydrated effortlessly without compromising on durability.",
+    "Enjoy practical features that keep your belongings organized."
+]
+```
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+```json
+[
+    "Experience premium sunglasses with UV 400 protection.",
+    "Deliver comfort & style with our exclusive design."
+]
+```
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+```json
+[["Ergonomic design for a smooth and secure grip.", "Wrist strap adjustment for perfect fit."], ["Changeable tips to enhance versatility.", "Pouch included for convenient carrying.")]
+```
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+[Set sentence: "Imprint your favorite team's logo on this authentic Slazenger football." Set sentence: "Get premium protection with three layers of durability on our official product."]
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+```json
+[
+    "Featuring category 3 lenses for enhanced clarity and a soft pouch with drawstring closure.",
+    "Compliant with EN ISO 12312-1 for safety and UV 400 protection."
+]
+```
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+```json
+[["Perfect for outdoor adventures", "Waterproof comfort for your picnic"], ["Easy to carry, versatile space", "Enjoy the sun without worry"]]
+```
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+[Set sentence 1: "Sending someone a hug isn't hard with this plaid blanket."  
+Set sentence 2: "Roll up and store effortlessly - great for keeping cozy without taking up too much space." ]
+
+time running: 36sec
+----------------------------------------
+
+Array
+(
+    [name] => qwen2.5:0.5b
+    [model] => qwen2.5:0.5b
+    [modified_at] => 2025-04-17T11:31:12.459141969+01:00
+    [size] => 397821319
+    [digest] => a8b0c51577010a279d933d14c2a8ab4b268079d44c5c8830c0a93900f1827c67
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => qwen2
+            [families] => Array
+                (
+                    [0] => qwen2
+                )
+
+            [parameter_size] => 494.03M
+            [quantization_level] => Q4_K_M
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+[The Spring water bottle is BPA-free, lightweight, durable, impact-resistant, single-walled, holds 600 ml, easy opening and closing, plus enough space for adding any desired logo.]
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+```json
+[
+    "Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It's perfect for exercising, day trips or the office!",
+    "The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it."
+]
+```
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+[
+    {
+        "setence1": "Exclusive design sunglasses category: UV 400 protection.",
+        "setence2": "Includes hardcase box and cleaning cloth. Packed in a Slazenger gift box."
+    }
+]
+[setence1 = "Exclusive design glasses with UV protection lenses.", setence2 = "Contains a hardbox for storage, clean cloth for maintenance, and a gift box to package the item."]
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+```json
+[
+    "Durable Nordic telescopic walking stick with adjustable grip, easy-to-attach wrist straps and versatile tip design.",
+    "Ergonomic Nordics telescopic walking sticks for a comfortable grip on your journey."
+]
+```
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+```json
+[
+    "Original Slazenger football is designed to fit any logo easily without extra space, making it a perfect choice for various marketing purposes. It features three layers, packed in a polybag with printed manual. The exclusive design makes it stand out.",
+    "The Original Slazenger football is meticulously made to ensure every detail fits perfectly into the design requirements while maximizing imprint space. Ideal for businesses looking to enhance their brand recognition and personal branding."
+]
+```
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+```json
+{
+  "setence1": "Soft, stylish sunglasses",
+  "setence2": "Compliant with standard EN ISO 12312-1 and UV 400"
+}
+```
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+[product_name + " + water-resistant back"]
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+[ "sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm", "The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space." ]
+
+time running: 19sec
+----------------------------------------
+
+Array
+(
+    [name] => llama3.2:1b
+    [model] => llama3.2:1b
+    [modified_at] => 2025-04-17T11:30:37.119063128+01:00
+    [size] => 1321098329
+    [digest] => baf6a787fdffd633537aa2eb51cfd54cb93ff08e28040095462bb63daf552878
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => llama
+            [families] => Array
+                (
+                    [0] => llama
+                )
+
+            [parameter_size] => 1.2B
+            [quantization_level] => Q8_0
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+[
+  {"setence1": "Spring water just got a whole lot clearer"},
+  {"setence2": "Made with Eastman Tritan for durability"}}
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+Here are two catchphrase options:
+
+[
+  "Hydrate every step",
+  "Water you waiting for?"
+]
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+[
+  {"setence1": "Spectacular style meets protection every day.",
+  "setence2": "Shine on in comfort with Slazenger."}
+]
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+```
+{"Setence1":"Steady steps forward with Nordic Telescopic Walking Sticks.","Setence2":"Nordic Telescopic Walking Sticks for easy grip and comfort on the go"}
+```
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+[
+  {"setence1": "Imprint your team's mark", "setence2": "Packed with style"}}
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+{\"setence1\":\"The perfect accessory for any occasion\",\"setence2\":\"Complies with international safety standards for eyesight protection\"}
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+[
+    {"Setence1": "Bring comfort to your next adventure.", "Setence2": "With water-resistant backing for effortless travel."}
+]
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+```
+["We're sending love from our Huggy Plaid Blanket", "Wrap yourself in warmth and comfort"]
+```
+
+time running: 26sec
+----------------------------------------
+
+Array
+(
+    [name] => qwen2.5:latest
+    [model] => qwen2.5:latest
+    [modified_at] => 2025-04-17T10:47:49.031243859+01:00
+    [size] => 4683087332
+    [digest] => 845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => qwen2
+            [families] => Array
+                (
+                    [0] => qwen2
+                )
+
+            [parameter_size] => 7.6B
+            [quantization_level] => Q4_K_M
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+["Eco-friendly Tritan, 600ml, twist lid hydration.", "Customize your Spring bottle with ease!"]
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+["Stay hydrated anywhere with our durable 400ml aluminium bottle.","Twist-on lid and carabiner clip keep your drink secure."']
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+["UV400 Protection, Exclusive Design","Cupronickel Frame, Gift Box Included"]
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+["Elevate your hike with Nordic tech.","Versatile support, everywhere you walk."]
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+["Imprint dreams, kick realities.","Three-layered perfection, your logo's home."]
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+["Stay cool, stay protected.", "UV defense in style."]
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+["Waterproof picnic joy, easily carried!", "145x130cm comfort, grab & go!"]
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+["Warm hugs on the go.", "Cozy up anytime, anywhere."]
+
+time running: 170sec
+----------------------------------------
+
+Array
+(
+    [name] => llama3.2:latest
+    [model] => llama3.2:latest
+    [modified_at] => 2025-04-17T10:40:50.369315765+01:00
+    [size] => 2019393189
+    [digest] => a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => llama
+            [families] => Array
+                (
+                    [0] => llama
+                )
+
+            [parameter_size] => 3.2B
+            [quantization_level] => Q4_K_M
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+["BPA-free perfection in every sip", "Customize your hydration, customize your style"]
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+[“Stay hydrated anywhere”, “Hydrate on-the-go safely”]
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+{""Unleash style with protection", "Slazenger shades: strong frames, clear sight"}
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+ [{"Walking stick for comfort", "Adventure at your fingertips"}]
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+["Customize your game with Slazenger's exclusive design!", "Unleash your team's spirit with every touch of this Size 5 football."]
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+["Protect your style, protect your eyes", "Sunglasses that shield and impress"]
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+["Easy to pack anywhere", "Adventure awaits, every time"]
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+["Wrap yourself in comfort", "Send warmth with every roll"]
+
+time running: 74sec
+----------------------------------------
+
+Array
+(
+    [name] => mistral:latest
+    [model] => mistral:latest
+    [modified_at] => 2025-04-17T10:37:26.248097647+01:00
+    [size] => 4113301824
+    [digest] => f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2fa5091
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => llama
+            [families] => Array
+                (
+                    [0] => llama
+                )
+
+            [parameter_size] => 7.2B
+            [quantization_level] => Q4_0
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+ [
+ "Sip pure with our BPA-free Spring water bottle!",
+ "Stylish and durable - The Spring bottle you need!"
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+ [
+"Stay hydrated, stay active: Aluminium water bottle perfect for all adventures!",
+"Clip it, carry it everywhere: BPA-free, German Food Safe, logo friendly water bottle!"
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+ [
+ "Experience style with UV400 protection - Category 3 Lenses",
+ "Slazenger gift box, hardcase included - Cupronickel frame & polycarbonate lenses"
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+ ["Scandinavian Comfort: Telescopic Walking Sticks",
+"Grip & Stride Ease: Changeable Tips Included"]
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+ [
+ "Slazenger Football: Show Your Brand Pride",
+ "Exclusive Slazenger Design - Logo Space Abundant"
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+ [
+ "Cool shades with UV protection, category 3 lenses!",
+ "UV 400 certified sunglasses, soft pouch included."
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+ [
+ "Waterproof picnic fun - Any weather, anytime!",
+ "Pack your picnic essentials easily - 145 x 130 cm blanket with carry handle."
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+ [
+ "Snuggle on-the-go with Huggy Plaid!",
+ "Cold days? Warm up fast with our Huggy Plaid Blanket!"
+
+time running: 168sec
+----------------------------------------
+
+Array
+(
+    [name] => gemma3:1b
+    [model] => gemma3:1b
+    [modified_at] => 2025-04-17T10:32:34.726358192+01:00
+    [size] => 815319791
+    [digest] => 8648f39daa8fbf5b18c7b4e6a8fb4990c692751d49917417b8842ca5758e7ffc
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => gemma3
+            [families] => Array
+                (
+                    [0] => gemma3
+                )
+
+            [parameter_size] => 999.89M
+            [quantization_level] => Q4_K_M
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+```json
+[
+  " Eastman Tritan: Pure water, lasting style.",
+  "600ml Spring water, durable & bright!"
+]
+```
+
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+```json
+[
+  "Hydration, always, light and bold.",
+  "Stay refreshed, effortlessly, in style."
+]
+```
+
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+```json
+{
+  "setence1": "Unleash style, protect your eyes. Cupronickel frames & UV 400.",
+  "setence2": "Luxury sunglasses, crafted for you. Guaranteed UV protection & box."
+}
+```
+
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+```json
+[
+"Easy grip, stylish stroll, [Product Name]!",
+"Comfort & style, adjust & stay, [Product Name]!"
+]
+```
+
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+```json
+{
+  "setence1": "Ultimate Slazenger: 3-layer football, custom logo, secure.",
+  "setence2": "Exclusive design, packed & printed – your winning touch!"
+}
+```
+
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+```json
+{
+  "setence1": "Stylish look, comfortable fit – see the world beautifully.",
+  "setence2": "EN ISO 12312-1 compliant, UV protection, drawstring closure."
+}
+```
+
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+```json
+{
+  "setences": [
+    "Ultimate picnic comfort: Water-resistant blanket.",
+    "Easy carry, brilliant picnic: 145x130cm size."
+  ]
+}
+```
+
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+```json
+[
+  "Warmth and comfort, just huggable.",
+  "Instant warmth, plush plaid hug."
+]
+```
+
+
+time running: 29sec
+----------------------------------------
+
+Array
+(
+    [name] => gemma3:latest
+    [model] => gemma3:latest
+    [modified_at] => 2025-04-17T09:32:35.854745957+01:00
+    [size] => 3338801804
+    [digest] => a2af6cc3eb7fa8be8504abaf9b04e88f17a119ec3f04a3addf55f92841195f5a
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => gemma3
+            [families] => Array
+                (
+                    [0] => gemma3
+                )
+
+            [parameter_size] => 4.3B
+            [quantization_level] => Q4_K_M
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+```json
+["Stay hydrated, stay strong with Spring!", "Tritan™ tough, effortlessly stylish."]
+```
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+```json
+["Hydrate in style – durable, lightweight & BPA-free!", "Your perfect companion for any adventure!"]
+```
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+```json
+["Slazenger: Style & Protection. UV 400, Cupronickel Frame."] , ["Luxury Sunglasses. UV Shield, Premium Design."]
+```
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+```json
+["Walk with confidence, explore with ease.", "Adjust, comfort, and go – your perfect stroll."]
+```
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."
+```json
+["Brand your game with the iconic Slazenger football.", "Premium 3-layer design, exclusive and fully custom."]
+```
+
+"Cool-looking sunglasses with category 3 lenses and a soft pouch with drawstring closure. Compliant with EN ISO 12312-1 and UV 400."
+```json
+["Shield your eyes in style – UV 400 protection.", "Cool shades, safe vision – EN ISO 12312-1 certified."]
+```
+
+"Picnic blanket with water resistant backing with easy carry handle. Blanket size is 145 x 130 cm."
+```json
+["Perfect picnics, worry-free comfort!", "Compact size, easy carry, relax!"]
+```
+
+"Sending someone a needed hug is easy with the Huggy plaid blanket of 150 x 120 cm. The single colour plaid blanket is made of 100% polar fleece 200 g/m², a soft and comfortable material that quickly provides the necessary warmth and retains body heat. Roll up the blanket and tuck it into the handy pouch with a drawstring closure for easy storage without losing much space."
+```json
+["Wrap yourself in warmth with Huggy!", "Soft, cozy comfort – perfect for any hug."]
+```
+
+time running: 73sec
+----------------------------------------
+
+Array
+(
+    [name] => deepseek-r1:latest
+    [model] => deepseek-r1:latest
+    [modified_at] => 2025-04-17T08:54:19.820879251+01:00
+    [size] => 4683075271
+    [digest] => 0a8c266910232fd3291e71e5ba1e058cc5af9d411192cf88b6d30e92b6e73163
+    [details] => Array
+        (
+            [parent_model] => 
+            [format] => gguf
+            [family] => qwen2
+            [families] => Array
+                (
+                    [0] => qwen2
+                )
+
+            [parameter_size] => 7.6B
+            [quantization_level] => Q4_K_M
+        )
+
+)
+
+
+"The Spring water bottle is an absolute bestseller. The bottle is made of Eastman Tritan™, which means it is BPA-free, light, durable and impact-resistant. The bottle is single-walled, holds 600 ml of liquid, and the stainless steel twist-on lid ensures easy opening and closing. Besides all, the Spring bottle offers enough space for adding any wanted logo or other messages."
+<think>
+Okay, so I need to create two catch-phrases for a spring water bottle based on the given description. Let me start by reading the description carefully.
+
+The product is an absolute bestseller named "Spring water bottle." It's made of Eastman Tritan™, which means it's BPA-free, light, durable, and impact-resistant. It's single-walled, holds 600 ml, and has a stainless steel twist-on lid for easy opening and closing. Additionally, the bottle allows space for adding logos or messages.
+
+Now, I need to translate these features into catchy phrases under 80 characters each. Let me break down the key points:
+
+1. BPA-free, safe material.
+2. Lightweight, durable, and impact-resistant.
+3. Holds up to 600 ml.
+4. Stainless steel lid for easy use.
+5. Space for logos or custom messages.
+
+I should combine these elements into two phrases that highlight what makes the bottle stand out. Maybe one can focus on safety and design, while the other emphasizes capacity and customization.
+
+First phrase idea: "BPA-free Spring bottle with a sleek twist-on lid for easy use." This includes BPA-free, mentions the lid's function, but maybe it misses some key features like material strength or size.
+
+Wait, I should also include durability and impact resistance. Let me try again: "BPA-free Eastman Tritan™ Spring bottle is lightweight, durable, and impact-resistant with a twist-on stainless steel lid." That covers more points but might be too long.
+
+Let me see if it fits under 80 characters. Counting the words: "BPA-free Eastman Tritan™ Spring bottle is lightweight, durable, and impact-resistant with a twist-on stainless steel lid." Hmm, that's 72 characters. It's good.
+
+Second phrase idea: Highlighting the capacity and customization. Maybe something like: "600 ml Spring bottle offers room for custom logos or messages." That's concise but might not emphasize all benefits.
+
+I can expand it to include more features: "600 ml Spring water bottle with a twist-on stainless steel lid holds up to 600 ml, perfect for adding custom branding or motivational messages." But that's too long. Maybe shorten it to focus on the capacity and ease of use: "600ml Spring bottle with a twist-on lid offers space for logos or messages."
+
+That works at 41 characters.
+
+Wait, maybe I can combine more aspects into one phrase without making it too wordy. Let me think again.
+
+First sentence: Focus on the bottle's qualities beyond just capacity—like safety and design.
+"BPA-free Eastman Tritan™ Spring bottle is made with high-quality materials for durability and a sleek design."
+
+That's 57 characters, which fits well.
+
+Second sentence: Emphasize the practicality of having space for customizations.
+"Perfect for adding logos or messages, this Spring bottle offers versatility in branding."
+
+But let me check the character count. "Perfect for adding logos or messages, this Spring bottle offers versatility in branding." That's 46 characters. It works.
+
+Alternatively, to make it more concise: "Spring bottle with a twist-on lid offers space for custom branding."
+
+That's shorter but might be too brief.
+
+I think I'll stick with the first idea because it includes both safety and design aspects.
+</think>
+
+["BPA-free Eastman Tritan™ Spring bottle is lightweight, durable, impact-resistant, and features a sleek twist-on stainless steel lid.", "600ml Spring water bottle offers space for custom logos or messages."]
+
+"Staying hydrated at all times is possible with this durable yet lightweight 400 ml aluminium water bottle. It is the perfect companion while exercising, on day trips or at the office. The single wall Oregon bottle has a twist-on lid and offers plenty of space to add any kind of logo. Clip the attached carabiner (not suitable for climbing) securely to a bag to avoid losing it. BPA Free and tested and approved under German Food Safe Legislation (LFGB) and for phthalates content under  REACH."
+<think>
+Okay, so I've got this query from a user asking to create two catch phrases for their product. Let's break it down.
+
+First, looking at the product description: It's a durable yet lightweight 400ml aluminum water bottle. Perfect for various activities like exercising or day trips. It has a twist-on lid and can hold logos with a clip carabiner (not suitable for climbing). Material info includes BPA-free and food safe, phthalates under REACH.
+
+The user wants two sentences, each max 80 characters, in JSON format as [sentence1, sentence2]. No other text. They provided an example response which I can use to understand the structure they're looking for.
+
+I need to focus on key features: durability and lightness, multiple uses (exercising, trips, office), single wall design allowing logo additions, clip functionality. Also, material safety info is important but might be less catchy than the other points.
+
+So thinking of catchy phrases that include these elements concisely. Maybe start with something about staying hydrated effortlessly or being perfect for active lifestyles.
+
+First sentence: Emphasize how it's a reliable companion for various activities. Something like "Stay hydrated effortlessly with our durable yet lightweight 400ml aluminum water bottle, perfect for exercising, day trips, and the office."
+
+Second sentence: Highlight the single wall design and logo capability without losing it. Maybe something like "Keep your brand aligned effortlessly with its single-wall design and secure twist-on lid, compatible with a clip carabiner (not suitable for climbing)."
+
+I should make sure each is under 80 chars and in JSON format as specified.
+</think>
+
+["Stay hydrated effortlessly with our durable yet lightweight 400ml aluminum water bottle, perfect for exercising, day trips, and the office.", "Keep your brand aligned effortlessly with its single-wall design and secure twist-on lid, compatible with a clip carabiner (not suitable for climbing)."]
+
+"Exclusive design sunglasses category 3 lenses with UV 400 protection, includes hardcase box and cleaning cloth. Packed in a Slazenger gift box. Cupronickel frame and polycarbonate lenses."
+<think>
+Alright, so I need to create two catch phrases for this sunglasses product. The user has given specific details about the product, so first, I should go through each point carefully.
+
+The product is exclusive, part of a category 3 lens group, which means it's high quality with UV protection up to 400. It comes with a hardcase box and a cleaning cloth, packed in a Slazenger gift box. The frames are cupronickel and the lenses are polycarbonate.
+
+I should make sure each catch phrase is under 80 characters. They need to be catchy and highlight the key features: exclusivity, UV protection, quality materials, and the elegant packaging.
+
+For the first sentence, maybe start with something that emphasizes the uniqueness of the product, like "Exclusive category 3 lenses" followed by highlighting the UV protection. Then mention the premium materials for a stylish look.
+
+The second catch phrase could focus on the package. Using words like "deluxe box" or "gift box" to highlight the elegance and quality. Mentioning both frame and lens quality ties it together without being too repetitive.
+
+I also need to ensure that each sentence is impactful but concise, not dragging on. I'll check character count as I draft them.
+</think>
+
+["Exclusive category 3 lenses with UV 400 protection offer top-tier sun safeguarding.", "Crafted with cupronickel frames and polycarbonate lenses, this sunglasses set is a luxurious gift."]
+
+"Nordic telescopic walking sticks with easy grip, comfortable wrist straps and changeable tips. Pouch included."
+<think>
+Alright, so I need to create two catch phrases for a product based on the given description. Let's break this down.
+
+The product is "Nordic telescoping walking sticks." The features mentioned are easy grip, comfortable wrist straps, changeable tips, and it comes with a pouch included. 
+
+First, I want each sentence to highlight different benefits to appeal to different user groups. Maybe one could focus on the durability and portability due to the telescoping feature, while another emphasizes comfort.
+
+For the first catch phrase, maybe something like "Experience freedom with our Nordic telescoping walking sticks—portable and durable!" That includes the telescoping aspect and the pouch, which is a plus.
+
+The second sentence should highlight comfort. So perhaps mention the wrist straps: "Comfortable wrist straps make every step easy." This directly refers to one of the key features.
+
+I need to keep each within 80 characters. Let me check: The first one is under; it has 73 characters including the quotes and space. The second, "Comfortable wrist straps make every step easy." That's 42 characters. Perfect, both are concise.
+</think>
+
+["Experience freedom with our Nordic telescoping walking sticks—portable and durable!", "Comfortable wrist straps make every step easy."]
+
+"Original Slazenger football with enough imprint space to fit any logo. 3 layers. Size 5. Packed in a polybag with printed manual. Exclusive design."

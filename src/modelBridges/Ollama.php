@@ -4,14 +4,19 @@ namespace tandrezone\Aitools\modelBridges;
 use tandrezone\Aitools\Interfaces\LanguageModel;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
-class Ollama {
-    private String $model;
+class Ollama
+{
+    private string $model;
     private Client $client;
-    private String $apiUrl;
+    private string $apiUrl;
 
-    public function __construct($model) {
-        $this->model = $model;
-        $this->apiUrl = "http://127.0.0.1:11434/api/";;
+    private array $options;
+
+    public function __construct()
+    {
+        $this->model = "";
+        $this->options = [];
+        $this->apiUrl = "http://127.0.0.1:11434/api/";
 
         $this->client = new Client([
             'base_uri' => $this->apiUrl,
@@ -19,74 +24,90 @@ class Ollama {
                 'Content-Type' => 'application/json',
             ]
         ]);
-            
+    }
+    public function setModel(string $model)
+    {
+        $this->model = $model;
     }
 
     /**
      * Lists all available models.
-     */ 
-    public function getModels(): array {
-        return $this->callOllamaAPI('tags',[], 'GET');
+     */
+    public function getModels(): array
+    {
+        return $this->callOllamaAPI('tags', []);
     }
 
     /**
      * Generates text based on the given template and parameters.
      */
-    public function getRaw($template,$parameters): array {
+    public function getRaw($template, $parameters): array
+    {
         foreach ($parameters as $key => $value) {
-            $template = str_replace('{{'.$key.'}}', $value, $template);
+            $template = str_replace('{{' . $key . '}}', $value, $template);
         }
-        return $this->callOllamaAPI('generate', ['prompt' => $template,'stream' => false]);
+        return $this->callModelAPI('generate', ['prompt' => $template, 'stream' => false]);
     }
 
     /**
      * Generates text based on the given prompt.
-     */ 
-    public function generateText(string $prompt): array {
+     */
+    public function generateText(string $prompt): array
+    {
         // Implementation to call Ollama API for generating text
-        return $this->callOllamaAPI('generate', ['prompt' => $prompt]);
+        return $this->callModelAPI('generate', ['prompt' => $prompt, 'stream' => false]);
     }
 
     /**
      * Completes a sentence or paragraph based on the given context.
      */
-    public function completeText(string $context, int $maxTokens): array {
+    public function completeText(string $context, int $maxTokens): array
+    {
         // Implementation to call Ollama API for completing text
-        return $this->callOllamaAPI('complete', ['context' => $context, 'max_tokens' => $maxTokens]);
+        return $this->callModelAPI('complete', ['context' => $context, 'max_tokens' => $maxTokens]);
     }
 
     /**
      * Summarizes the given text.
      */
-    public function summarize(string $text, int $maxTokens): array {
+    public function summarize(string $text, int $maxTokens): array
+    {
         // Implementation to call Ollama API for summarizing text
-        return $this->callOllamaAPI('summarize', ['text' => $text, 'max_tokens' => $maxTokens]);
+        return $this->callModelAPI('summarize', ['text' => $text, 'max_tokens' => $maxTokens]);
     }
 
     /**
      * Translates the given text from one language to another.
      */
-    public function translate(string $text, string $sourceLang, string $targetLang): array {
+    public function translate(string $text, string $sourceLang, string $targetLang): array
+    {
         // Implementation to call Ollama API for translating text
-        return $this->callOllamaAPI('translate', ['text' => $text, 'source_lang' => $sourceLang, 'target_lang' => $targetLang]);
+        return $this->callModelAPI('translate', ['text' => $text, 'source_lang' => $sourceLang, 'target_lang' => $targetLang]);
     }
 
-    /**
-     * Determines the sentiment of the given text.
-     */
-    public function analyzeSentiment(string $text): string {
-        // Implementation to call Ollama API for analyzing sentiment
-        return $this->callOllamaAPI('sentiment', ['text' => $text]);
-    }
 
     /**
      * Calls the Ollama API.
      */
-    private function callOllamaAPI(string $endpoint, array $params=[], $http_method = 'POST'): array {
+    private function callModelAPI(string $endpoint, array $params = [], $http_method = 'POST'): array
+    {
+        if (!$this->model) {
+            throw new \Exception('Model not set.');
+        }
+        if (!empty($this->options)) {
+            $params['options'] = $this->options;
+        }
         $params['model'] = $this->model;
         // Construct URL or other parameters for the API request
-        
+        return $this->callOllamaAPI($endpoint, $params, $http_method);
 
+    }
+
+    /**
+     * Handles API request and response.
+     */
+    private function callOllamaAPI(string $endpoint, array $params = [], $http_method = 'GET')
+    {
         try {
             if ($http_method == 'GET') {
                 $response = $this->client->get($endpoint);
@@ -97,8 +118,9 @@ class Ollama {
             return $data;
         } catch (RequestException $e) {
             echo 'API Request failed: ' . $e->getMessage();
+
+            error_log('API Request failed: ' . $e->getMessage());
             exit();
         }
-        
     }
 }
