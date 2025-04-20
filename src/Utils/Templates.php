@@ -3,7 +3,8 @@ namespace tandrezone\Aitools\Utils;
 
 class Templates {
     CONST TEMPLATES = [
-        'catchPhrase'=> __DIR__ . '/../Templates/catchPhrase.template'
+        'catchPhrase'=> __DIR__ . '/../Templates/catchPhrase.template',
+        'worklog'=> __DIR__ . '/../Templates/worklog.template'
     ];
 
     public static function get($templateName) {

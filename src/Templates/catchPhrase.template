@@ -1,1 +1,9 @@
-Create me {{number_phrases}} setences catch phrases maximum {{chars}} characters each for a product with this description:'{{prompt}}' give me only the setences, no other text and in json format, with json structure [setence1,setence2] 
+Create me {{number_phrases}} catch phrases 
+with maximum {{chars}} characters
+for a product with this description:'{{prompt}}' give me only JSON in format 
+{
+    "phrases": [
+        "setence1",
+        "setence2"
+    ]
+}

@@ -1,0 +1,6 @@
+Create me sumarized worklog based on the workdetails:
+{
+    "phrases": {workdetails}
+}
+give me the worklog only in JSON in the format
+{"worklog" : "$worlog}
