@@ -16,7 +16,7 @@ class Ollama
     {
         $this->model = "";
         $this->options = [];
-        $this->apiUrl = "http://127.0.0.1:11434/api/";
+        $this->apiUrl = "http://192.168.1.183:11434/api/";
 
         $this->client = new Client([
             'base_uri' => $this->apiUrl,
